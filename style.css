@@ -24,4 +24,9 @@ body {
     inset: 5px;
     background-color: white;
     border-radius: 35px;
+    transition: 0.5s;
+}
+
+.card::before:hover {
+    transform: translate(40, 40);
 }
